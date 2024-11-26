@@ -1,0 +1,8 @@
+molpro $MOLPRO/
+scratchdir /gpfs/fs2/scratch/bweight/qd-spin_LSC/runs/Ethylene/SA3-CAS_2_2/TRAJ/traj-0/temp
+savedir /gpfs/fs2/scratch/bweight/qd-spin_LSC/runs/Ethylene/SA3-CAS_2_2/TRAJ/traj-0/restart
+gradaccudefault 0.00000010
+gradaccumax 0.000100
+memory 20000
+ncpu 1
+wfoverlap $SHARC/wfoverlap.x
